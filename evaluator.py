@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import numpy as np
 import sys
+sys.path.append('../tcai17/')
+import utils
 import matplotlib.pyplot as plt
 import time
 
@@ -184,3 +186,49 @@ class Evaluator:
             print 'saved pbbs missed {} out of {} annotations ({:.2%})'.format(len(lbbs_not_in_pbbs_df),
                                                                        n_annot,
                                                                            1.0 * len(lbbs_not_in_pbbs_df)/n_annot)
+
+
+
+
+    def froc(self, by='prob', ignore=[], n_scans=None):
+        """Print FROC statistics and return (fp_per_scan,
+                                             TPRs,
+                                             probability_thresholds).
+        by: 'prob' , 'c_prob', 'ensemble'
+        ignore: list of patients to ignore pbbs for FROC
+        n_scans: # scans used for fp_per_scan. If None, use len(self.filenames)
+        """
+
+        if self.test_set == 'test':
+            print 'Error: test set has no labels'
+            return
+
+        irr = self.irr.loc[~self.irr['pid'].isin(ignore)]
+        rel = self.rel.loc[~self.rel['pid'].isin(ignore)]
+
+        irr = np.array(irr[by])
+        rel = np.array(rel[by])
+        irr = irr[irr.argsort()][::-1]
+        rel = rel[rel.argsort()][::-1]
+        tprs = []
+        p_ths = []
+        fp_per_scan = [1.0/8, 1.0/4, 1.0/2, 1.0, 2.0, 4.0, 8.0]
+        if n_scans is None:
+            n_scans = len(self.filenames)
+        for nlf in fp_per_scan:
+            irr_i = int(np.round(nlf * n_scans))
+            # if not enough false positives, assume padded false positive list
+            # with p=0
+            prob_th = 0 if irr_i >= len(irr) else irr[irr_i]
+            tpr = np.sum(rel > prob_th)/(1.0 * self.n_annot)
+            tprs.append(tpr)
+            p_ths.append(prob_th)
+            print 'NLF: {}, TPR: {}, PROB_TH: {}'.format(nlf, tpr, prob_th)
+        print '======'
+        print 'avg TPR: {}'.format(np.mean(tprs))
+
+        return (fp_per_scan, tprs, p_ths)
+
+        #plt.plot(fp_per_scan, tprs)
+        #plt.show()
+
