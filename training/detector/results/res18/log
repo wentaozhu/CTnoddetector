@@ -1,0 +1,2320 @@
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+['/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00289_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00844_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00488_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00587_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00110_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00875_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00335_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00601_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00931_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00571_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00402_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00193_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00253_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00450_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00603_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00540_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00180_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00649_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00088_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00004_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00961_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00734_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00838_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00653_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00420_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00882_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00204_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00746_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00809_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00076_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00185_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00117_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00930_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00038_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00924_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00111_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00360_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00969_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00837_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00336_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00242_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00235_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00772_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00379_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00808_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00624_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00142_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00892_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00096_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00312_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00078_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00160_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00445_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00456_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00984_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00643_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00371_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00533_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00796_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00544_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00173_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00035_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00114_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00692_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00773_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00682_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00493_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00230_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00293_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00434_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00074_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00937_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00778_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00727_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00424_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00021_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00789_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00093_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00256_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00562_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00906_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00503_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00939_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00948_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00120_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00042_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00099_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00956_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00563_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00834_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00847_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00707_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00261_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00084_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00463_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00036_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00764_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00396_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00634_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00034_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00646_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00129_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00478_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00894_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00448_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00512_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00541_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00697_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00198_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00775_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00339_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00299_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00945_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00553_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00291_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00440_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00595_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00406_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00878_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00768_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00611_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00803_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00214_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00759_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00350_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00486_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00691_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00062_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00140_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00041_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00025_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00213_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00394_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00899_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00658_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00267_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00194_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00178_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00831_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00763_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00997_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00320_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00528_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00817_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00957_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00730_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00482_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00982_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00592_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00742_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00109_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00331_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00946_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00356_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00873_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00537_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00804_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00832_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00085_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00137_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00136_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00667_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00558_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00029_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00480_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00767_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00816_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00600_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00369_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00994_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00836_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00407_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00304_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00915_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00718_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00107_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00887_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00884_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00797_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00531_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00609_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00641_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00442_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00334_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00856_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00675_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00731_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00290_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00349_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00443_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00323_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00216_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00089_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00567_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00985_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00181_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00605_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00917_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00968_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00229_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00494_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00302_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00813_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00936_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00990_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00612_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00294_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00780_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00375_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00408_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00865_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00846_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00880_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00485_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00389_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00398_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00575_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00891_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00888_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00795_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00970_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00897_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00709_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00195_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00454_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00723_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00670_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00466_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00811_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00708_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00886_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00381_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00565_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00108_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00297_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00740_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00699_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00016_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00782_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00586_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00219_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00118_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00725_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00043_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00722_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00104_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00122_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00933_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00896_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00835_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00426_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00890_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00698_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00879_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00247_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00950_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00650_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00280_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00509_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00392_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00781_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00527_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00264_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00421_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00090_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00105_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00962_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00030_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00496_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00429_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00296_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00826_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-01000_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00023_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00848_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00073_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00081_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00744_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00487_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00752_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00306_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00188_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00639_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00660_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00499_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00091_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00702_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00521_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00703_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00176_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00207_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00684_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00127_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00506_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00005_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00152_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00470_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00165_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00678_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00149_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00901_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00183_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00263_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00359_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00995_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00981_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00040_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00236_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00497_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00783_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00342_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00325_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00814_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00904_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00044_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00745_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00475_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00830_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00935_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00566_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00314_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00240_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00284_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00964_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00714_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00465_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00852_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00374_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00460_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00175_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00620_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00232_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00857_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00364_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00614_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00827_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00555_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00919_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00845_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00134_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00237_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00363_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00530_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00257_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00517_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00716_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00275_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00337_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00281_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00954_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00608_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00064_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00066_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00859_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00126_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00019_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00135_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00225_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00983_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00912_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00083_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00054_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00011_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00572_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00525_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00102_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00839_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00481_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00061_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00863_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00249_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00819_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00784_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00647_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00162_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00358_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00534_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00579_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00696_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00053_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00513_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00777_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00200_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00058_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00273_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00760_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00270_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00013_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00833_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00640_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00862_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00998_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00824_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00278_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00196_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00405_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00227_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00315_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00467_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00007_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00739_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00598_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00345_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00218_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00923_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00039_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00711_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00418_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00477_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00820_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00545_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00390_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00701_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00220_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00771_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00511_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00625_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00976_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00546_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00428_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00378_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00187_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00100_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00169_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00710_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00615_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00756_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00020_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00301_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00015_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00491_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00514_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00112_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00876_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00630_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00101_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00757_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00459_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00119_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00287_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00911_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00416_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00144_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00191_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00574_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00668_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00077_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00550_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00949_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00674_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00447_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00471_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00942_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00431_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00841_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00116_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00254_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00921_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00050_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00052_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00825_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00507_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00628_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00461_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00578_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00427_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00457_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00150_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00171_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00403_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00368_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00476_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00585_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00788_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00632_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00133_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00843_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00168_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00065_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00823_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00515_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00154_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00212_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00582_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00694_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00801_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00870_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00732_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00671_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00357_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00589_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00673_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00244_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00269_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00807_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00914_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00676_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00260_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00991_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00184_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00798_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00666_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00472_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00681_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00051_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00829_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00519_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00867_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00706_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00750_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00279_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00295_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00307_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00151_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00469_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00900_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00395_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00593_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00068_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00762_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00001_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00996_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00868_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00619_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00272_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00623_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00388_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00436_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00898_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00629_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00156_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00776_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00092_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00075_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00944_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00979_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00286_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00028_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00047_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00805_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00918_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00728_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00893_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00755_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00189_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00321_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00348_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00815_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00638_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00473_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00941_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00790_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00661_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00326_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00733_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00277_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00885_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00648_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00556_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00393_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00283_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00292_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00333_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00663_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00529_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00147_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00700_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00989_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00303_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00474_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00217_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00003_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00866_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00573_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00412_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00683_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00651_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00492_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00717_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00423_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00622_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00079_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00953_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00026_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00413_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00451_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00855_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00973_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00677_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00223_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00203_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00821_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00549_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00951_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00246_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00095_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/train/LKDS-00596_clean.npy']
+['/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00002_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00141_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00014_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00130_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00146_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00080_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00372_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00166_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00190_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00367_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00228_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00376_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00059_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00138_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00161_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00340_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00282_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00024_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00006_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00202_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00201_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00070_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00343_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00318_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00234_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00276_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00208_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00241_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00365_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00338_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00329_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00255_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00311_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00067_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00072_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00125_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00354_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00086_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00170_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00145_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00032_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00163_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00071_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00017_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00268_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00018_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00351_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00288_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00380_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00048_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00010_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00153_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00226_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00069_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00060_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00009_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00123_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00148_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00370_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00250_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00197_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00327_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00344_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00317_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00008_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00121_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00310_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00243_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00045_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00353_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00172_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00210_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00157_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00233_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00324_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00115_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00128_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00113_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00177_clean.npy', '/mnt/media/wentao/tianchi/preprocessing/val/LKDS-00055_clean.npy']
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[[0 0 0 0]]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+using gpu 0,1,2,3
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00289_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00844_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00488_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00587_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00110_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00875_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00335_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00601_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00931_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00571_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00402_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00193_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00253_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00450_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00603_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00540_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00180_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00649_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00088_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00004_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00961_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00734_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00838_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00653_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00420_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00882_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00204_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00746_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00809_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00076_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00185_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00117_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00930_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00038_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00924_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00111_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00360_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00969_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00837_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00336_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00242_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00235_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00772_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00379_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00808_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00624_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00142_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00892_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00096_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00312_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00078_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00160_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00445_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00456_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00984_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00643_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00371_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00533_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00796_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00544_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00173_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00035_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00114_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00692_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00773_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00682_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00493_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00230_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00293_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00434_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00074_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00937_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00778_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00727_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00424_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00021_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00789_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00093_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00256_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00562_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00906_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00503_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00939_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00948_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00120_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00042_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00099_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00956_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00563_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00834_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00847_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00707_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00261_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00084_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00463_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00036_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00764_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00396_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00634_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00034_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00646_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00129_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00478_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00894_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00448_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00512_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00541_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00697_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00198_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00775_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00339_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00299_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00945_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00553_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00291_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00440_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00595_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00406_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00878_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00768_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00611_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00803_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00214_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00759_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00350_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00486_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00691_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00062_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00140_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00041_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00025_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00213_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00394_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00899_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00658_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00267_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00194_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00178_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00831_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00763_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00997_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00320_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00528_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00817_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00957_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00730_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00482_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00982_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00592_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00742_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00109_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00331_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00946_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00356_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00873_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00537_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00804_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00832_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00085_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00137_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00136_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00667_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00558_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00029_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00480_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00767_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00816_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00600_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00369_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00994_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00836_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00407_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00304_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00915_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00718_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00107_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00887_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00884_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00797_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00531_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00609_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00641_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00442_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00334_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00856_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00675_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00731_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00290_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00349_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00443_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00323_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00216_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00089_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00567_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00985_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00181_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00605_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00917_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00968_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00229_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00494_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00302_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00813_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00936_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00990_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00612_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00294_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00780_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00375_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00408_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00865_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00846_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00880_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00485_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00389_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00398_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00575_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00891_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00888_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00795_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00970_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00897_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00709_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00195_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00454_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00723_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00670_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00466_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00811_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00708_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00886_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00381_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00565_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00108_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00297_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00740_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00699_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00016_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00782_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00586_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00219_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00118_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00725_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00043_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00722_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00104_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00122_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00933_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00896_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00835_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00426_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00890_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00698_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00879_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00247_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00950_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00650_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00280_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00509_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00392_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00781_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00527_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00264_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00421_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00090_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00105_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00962_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00030_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00496_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00429_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00296_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00826_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-01000_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00023_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00848_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00073_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00081_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00744_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00487_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00752_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00306_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00188_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00639_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00660_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00499_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00091_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00702_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00521_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00703_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00176_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00207_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00684_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00127_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00506_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00005_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00152_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00470_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00165_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00678_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00149_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00901_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00183_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00263_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00359_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00995_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00981_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00040_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00236_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00497_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00783_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00342_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00325_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00814_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00904_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00044_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00745_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00475_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00830_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00935_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00566_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00314_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00240_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00284_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00964_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00714_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00465_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00852_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00374_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00460_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00175_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00620_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00232_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00857_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00364_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00614_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00827_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00555_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00919_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00845_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00134_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00237_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00363_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00530_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00257_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00517_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00716_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00275_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00337_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00281_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00954_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00608_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00064_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00066_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00859_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00126_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00019_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00135_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00225_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00983_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00912_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00083_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00054_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00011_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00572_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00525_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00102_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00839_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00481_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00061_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00863_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00249_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00819_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00784_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00647_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00162_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00358_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00534_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00579_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00696_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00053_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00513_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00777_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00200_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00058_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00273_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00760_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00270_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00013_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00833_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00640_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00862_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00998_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00824_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00278_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00196_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00405_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00227_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00315_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00467_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00007_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00739_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00598_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00345_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00218_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00923_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00039_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00711_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00418_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00477_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00820_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00545_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00390_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00701_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00220_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00771_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00511_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00625_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00976_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00546_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00428_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00378_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00187_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00100_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00169_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00710_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00615_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00756_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00020_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00301_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00015_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00491_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00514_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00112_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00876_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00630_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00101_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00757_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00459_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00119_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00287_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00911_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00416_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00144_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00191_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00574_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00668_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00077_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00550_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00949_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00674_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00447_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00471_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00942_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00431_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00841_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00116_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00254_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00921_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00050_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00052_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00825_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00507_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00628_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00461_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00578_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00427_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00457_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00150_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00171_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00403_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00368_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00476_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00585_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00788_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00632_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00133_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00843_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00168_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00065_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00823_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00515_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00154_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00212_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00582_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00694_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00801_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00870_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00732_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00671_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00357_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00589_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00673_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00244_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00269_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00807_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00914_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00676_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00260_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00991_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00184_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00798_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00666_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00472_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00681_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00051_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00829_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00519_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00867_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00706_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00750_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00279_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00295_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00307_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00151_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00469_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00900_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00395_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00593_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00068_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00762_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00001_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00996_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00868_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00619_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00272_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00623_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00388_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00436_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00898_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00629_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00156_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00776_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00092_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00075_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00944_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00979_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00286_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00028_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00047_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00805_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00918_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00728_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00893_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00755_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00189_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00321_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00348_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00815_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00638_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00473_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00941_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00790_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00661_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00326_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00733_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00277_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00885_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00648_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00556_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00393_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00283_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00292_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00333_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00663_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00529_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00147_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00700_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00989_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00303_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00474_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00217_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00003_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00866_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00573_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00412_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00683_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00651_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00492_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00717_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00423_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00622_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00079_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00953_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00026_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00413_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00451_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00855_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00973_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00677_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00223_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00203_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00821_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00549_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00951_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00246_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00095_label.npy
+[[0 0 0 0]] /mnt/media/wentao/tianchi/preprocessing/train/LKDS-00596_label.npy
+using gpu 0,1,2,3
+[[85.1999982595 127.01237474800001 56.86327570559999 13.9877103298]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00161_label.npy
+[[53.999914551000074 118.253653187 218.94129594059999 16.8965735013]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00255_label.npy
+[[73.99992675800013 100.799597538 34.235203598 10.906449136099999]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00170_label.npy
+[[205.99997558599995 165.531738281 36.81722005200001 4.43397444007]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00010_label.npy
+[[51.999914551000074 95.74465013599999 232.712890625 7.300643696450001]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00177_label.npy
+[[85.1999982595 127.01237474800001 56.86327570559999 13.9877103298]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00161_label.npy
+[[53.999914551000074 118.253653187 218.94129594059999 16.8965735013]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00255_label.npy
+[[73.99992675800013 100.799597538 34.235203598 10.906449136099999]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00170_label.npy
+[[205.99997558599995 165.531738281 36.81722005200001 4.43397444007]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00010_label.npy
+[[51.999914551000074 95.74465013599999 232.712890625 7.300643696450001]] /mnt/media/wentao/tianchi/preprocessing/subval/LKDS-00177_label.npy
+Epoch 001 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 21.76
+loss 1.5828, classify loss 1.0600, regress loss 0.1891, 0.0275, 0.2360, 0.0702
+
+Validation: tpr 75.00, tnr 41.46791960, total pos 4, total neg 389272, time 1.10
+loss 2.3793, classify loss 0.6790, regress loss 0.5247, 1.0288, 0.0394, 0.1074
+
+
+Epoch 002 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 8.22
+loss 0.9951, classify loss 0.8480, regress loss 0.0202, 0.0341, 0.0180, 0.0749
+
+Validation: tpr 0.00, tnr 100.00000000, total pos 4, total neg 389222, time 1.08
+loss 681.5400, classify loss 13.8159, regress loss 57.1088, 14.9945, 440.3217, 155.2991
+
+
+Epoch 003 (lr 0.01000)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 7.79
+loss 0.9307, classify loss 0.7606, regress loss 0.0676, 0.0085, 0.0528, 0.0411
+
+Validation: tpr 0.00, tnr 100.00000000, total pos 4, total neg 389252, time 1.08
+loss 5647.0059, classify loss 13.8155, regress loss 890.2615, 151.9949, 3383.1206, 1207.8134
+
+
+Epoch 004 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 7.87
+loss 1.8977, classify loss 0.8359, regress loss 0.2062, 0.0058, 0.6131, 0.2367
+
+Validation: tpr 100.00, tnr 66.36535740, total pos 4, total neg 389301, time 1.14
+loss 567.4503, classify loss 3.1880, regress loss 138.9745, 200.4382, 116.2447, 108.6049
+
+
+Epoch 005 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 9.16
+loss 1.1750, classify loss 1.0868, regress loss 0.0110, 0.0079, 0.0182, 0.0511
+
+Validation: tpr 0.00, tnr 98.81213000, total pos 4, total neg 389184, time 1.14
+loss 466.1655, classify loss 13.8486, regress loss 129.0547, 106.6466, 186.9732, 29.6424
+
+
+Epoch 006 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 8.46
+loss 0.9865, classify loss 0.8132, regress loss 0.0468, 0.0172, 0.0802, 0.0290
+
+Validation: tpr 0.00, tnr 99.85868666, total pos 4, total neg 389206, time 1.15
+loss 556.1447, classify loss 13.8338, regress loss 179.7942, 118.6357, 212.2191, 31.6619
+
+
+Epoch 007 (lr 0.01000)
+Train:      tpr 0.00, tnr 20.00, total pos 4, total neg 10, time 9.72
+loss 0.8851, classify loss 0.7552, regress loss 0.0185, 0.0160, 0.0219, 0.0734
+
+Validation: tpr 0.00, tnr 99.91316055, total pos 4, total neg 389224, time 1.31
+loss 352.1759, classify loss 13.8331, regress loss 108.5403, 59.5518, 126.0154, 44.2352
+
+
+Epoch 008 (lr 0.01000)
+Train:      tpr 0.00, tnr 80.00, total pos 4, total neg 10, time 10.27
+loss 0.8622, classify loss 0.7914, regress loss 0.0121, 0.0025, 0.0162, 0.0400
+
+Validation: tpr 0.00, tnr 97.35002351, total pos 4, total neg 389211, time 1.30
+loss 220.3156, classify loss 13.8745, regress loss 61.4633, 27.9614, 76.8037, 40.2126
+
+
+Epoch 009 (lr 0.01000)
+Train:      tpr 0.00, tnr 10.00, total pos 4, total neg 10, time 10.59
+loss 0.6928, classify loss 0.6219, regress loss 0.0090, 0.0110, 0.0176, 0.0333
+
+Validation: tpr 0.00, tnr 98.13565984, total pos 4, total neg 389253, time 1.31
+loss 88.8440, classify loss 13.8472, regress loss 22.3737, 7.4927, 30.1947, 14.9358
+
+
+Epoch 010 (lr 0.01000)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 10.76
+loss 0.7823, classify loss 0.7377, regress loss 0.0082, 0.0052, 0.0079, 0.0233
+
+Validation: tpr 0.00, tnr 96.27817201, total pos 4, total neg 389083, time 1.24
+loss 49.2964, classify loss 13.8713, regress loss 10.5710, 1.5715, 17.8036, 5.4789
+
+
+Epoch 011 (lr 0.01000)
+Train:      tpr 25.00, tnr 10.00, total pos 4, total neg 10, time 10.69
+loss 0.7905, classify loss 0.7134, regress loss 0.0078, 0.0163, 0.0027, 0.0502
+
+Validation: tpr 0.00, tnr 91.39633830, total pos 4, total neg 389218, time 1.30
+loss 41.3552, classify loss 13.7298, regress loss 8.2844, 1.3444, 13.5713, 4.4254
+
+
+Epoch 012 (lr 0.01000)
+Train:      tpr 0.00, tnr 0.00, total pos 4, total neg 10, time 10.62
+loss 0.8286, classify loss 0.7322, regress loss 0.0013, 0.0071, 0.0466, 0.0414
+
+Validation: tpr 0.00, tnr 95.37994827, total pos 4, total neg 389303, time 1.29
+loss 25.9221, classify loss 10.6470, regress loss 5.2314, 0.8530, 8.7729, 0.4177
+
+
+Epoch 013 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 10.69
+loss 0.7726, classify loss 0.7118, regress loss 0.0112, 0.0216, 0.0037, 0.0243
+
+Validation: tpr 0.00, tnr 97.51704781, total pos 4, total neg 389053, time 1.32
+loss 20.0007, classify loss 8.1216, regress loss 4.0741, 1.0196, 6.3678, 0.4176
+
+
+Epoch 014 (lr 0.01000)
+Train:      tpr 25.00, tnr 40.00, total pos 4, total neg 10, time 10.74
+loss 0.6139, classify loss 0.5926, regress loss 0.0086, 0.0020, 0.0052, 0.0055
+
+Validation: tpr 0.00, tnr 99.93215426, total pos 4, total neg 389118, time 1.27
+loss 8.2756, classify loss 4.0546, regress loss 1.5430, 0.4391, 1.9925, 0.2464
+
+
+Epoch 015 (lr 0.01000)
+Train:      tpr 0.00, tnr 90.00, total pos 4, total neg 10, time 10.72
+loss 0.7568, classify loss 0.7156, regress loss 0.0083, 0.0100, 0.0043, 0.0186
+
+Validation: tpr 0.00, tnr 99.99280465, total pos 4, total neg 389140, time 1.25
+loss 2.8342, classify loss 1.6274, regress loss 0.4428, 0.1207, 0.4909, 0.1524
+
+
+Epoch 016 (lr 0.01000)
+Train:      tpr 0.00, tnr 80.00, total pos 4, total neg 10, time 10.71
+loss 0.7600, classify loss 0.7101, regress loss 0.0050, 0.0084, 0.0151, 0.0215
+
+Validation: tpr 0.00, tnr 99.98535924, total pos 4, total neg 389324, time 1.26
+loss 0.8730, classify loss 0.6854, regress loss 0.0760, 0.0070, 0.0322, 0.0725
+
+
+Epoch 017 (lr 0.01000)
+Train:      tpr 25.00, tnr 50.00, total pos 4, total neg 10, time 10.67
+loss 1.4606, classify loss 0.9758, regress loss 0.2350, 0.0054, 0.1377, 0.1067
+
+Validation: tpr 50.00, tnr 99.43286312, total pos 4, total neg 389324, time 1.26
+loss 0.6835, classify loss 0.6219, regress loss 0.0043, 0.0068, 0.0024, 0.0480
+
+
+Epoch 018 (lr 0.01000)
+Train:      tpr 25.00, tnr 60.00, total pos 4, total neg 10, time 10.70
+loss 0.7757, classify loss 0.6992, regress loss 0.0059, 0.0137, 0.0171, 0.0398
+
+Validation: tpr 100.00, tnr 84.71160492, total pos 4, total neg 389171, time 1.26
+loss 0.7129, classify loss 0.6406, regress loss 0.0082, 0.0077, 0.0054, 0.0510
+
+
+Epoch 019 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 10.27
+loss 0.9053, classify loss 0.7635, regress loss 0.0269, 0.0027, 0.0350, 0.0772
+
+Validation: tpr 100.00, tnr 67.97469949, total pos 4, total neg 389083, time 1.26
+loss 0.7296, classify loss 0.6568, regress loss 0.0101, 0.0044, 0.0071, 0.0512
+
+
+Epoch 020 (lr 0.01000)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 11.85
+loss 0.7620, classify loss 0.7089, regress loss 0.0064, 0.0056, 0.0023, 0.0388
+
+Validation: tpr 100.00, tnr 66.60679781, total pos 4, total neg 389184, time 1.28
+loss 0.7207, classify loss 0.6532, regress loss 0.0066, 0.0045, 0.0083, 0.0480
+
+
+Epoch 021 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 10.68
+loss 0.7495, classify loss 0.7157, regress loss 0.0092, 0.0047, 0.0012, 0.0187
+
+Validation: tpr 100.00, tnr 67.45434685, total pos 4, total neg 389075, time 1.26
+loss 0.7356, classify loss 0.6532, regress loss 0.0117, 0.0070, 0.0143, 0.0495
+
+
+Epoch 022 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 10.64
+loss 0.6277, classify loss 0.6005, regress loss 0.0068, 0.0022, 0.0059, 0.0122
+
+Validation: tpr 100.00, tnr 66.82641901, total pos 4, total neg 389144, time 1.27
+loss 0.7254, classify loss 0.6588, regress loss 0.0113, 0.0021, 0.0067, 0.0465
+
+
+Epoch 023 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 10.70
+loss 0.7960, classify loss 0.7101, regress loss 0.0355, 0.0067, 0.0195, 0.0242
+
+Validation: tpr 100.00, tnr 67.98212248, total pos 4, total neg 389092, time 1.25
+loss 0.7228, classify loss 0.6603, regress loss 0.0040, 0.0057, 0.0076, 0.0452
+
+
+Epoch 024 (lr 0.01000)
+Train:      tpr 100.00, tnr 0.00, total pos 4, total neg 10, time 10.73
+loss 0.7631, classify loss 0.7100, regress loss 0.0103, 0.0069, 0.0163, 0.0197
+
+Validation: tpr 75.00, tnr 87.40024768, total pos 4, total neg 389214, time 1.27
+loss 0.7322, classify loss 0.6641, regress loss 0.0069, 0.0065, 0.0090, 0.0457
+
+
+Epoch 025 (lr 0.01000)
+Train:      tpr 0.00, tnr 10.00, total pos 4, total neg 10, time 10.35
+loss 0.7740, classify loss 0.7093, regress loss 0.0024, 0.0012, 0.0065, 0.0545
+
+Validation: tpr 0.00, tnr 99.76407942, total pos 4, total neg 389114, time 1.24
+loss 0.7475, classify loss 0.6742, regress loss 0.0060, 0.0087, 0.0089, 0.0496
+
+
+Epoch 026 (lr 0.01000)
+Train:      tpr 0.00, tnr 0.00, total pos 4, total neg 10, time 10.69
+loss 0.8201, classify loss 0.7282, regress loss 0.0234, 0.0194, 0.0092, 0.0400
+
+Validation: tpr 0.00, tnr 99.40902749, total pos 4, total neg 389189, time 1.27
+loss 0.7397, classify loss 0.6637, regress loss 0.0045, 0.0088, 0.0164, 0.0463
+
+
+Epoch 027 (lr 0.01000)
+Train:      tpr 25.00, tnr 20.00, total pos 4, total neg 10, time 10.67
+loss 0.7605, classify loss 0.7082, regress loss 0.0017, 0.0059, 0.0074, 0.0372
+
+Validation: tpr 50.00, tnr 98.64455626, total pos 4, total neg 389319, time 1.25
+loss 0.7262, classify loss 0.6569, regress loss 0.0083, 0.0078, 0.0068, 0.0465
+
+
+Epoch 028 (lr 0.01000)
+Train:      tpr 25.00, tnr 40.00, total pos 4, total neg 10, time 10.67
+loss 0.7437, classify loss 0.7087, regress loss 0.0029, 0.0083, 0.0080, 0.0159
+
+Validation: tpr 75.00, tnr 96.26907088, total pos 4, total neg 389206, time 1.25
+loss 0.7272, classify loss 0.6563, regress loss 0.0115, 0.0080, 0.0041, 0.0473
+
+
+Epoch 029 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 10.27
+loss 0.7347, classify loss 0.7040, regress loss 0.0017, 0.0014, 0.0074, 0.0203
+
+Validation: tpr 100.00, tnr 94.47088894, total pos 4, total neg 389285, time 1.26
+loss 0.7163, classify loss 0.6483, regress loss 0.0090, 0.0043, 0.0082, 0.0465
+
+
+Epoch 030 (lr 0.01000)
+Train:      tpr 50.00, tnr 30.00, total pos 4, total neg 10, time 10.77
+loss 0.7564, classify loss 0.7012, regress loss 0.0115, 0.0093, 0.0065, 0.0279
+
+Validation: tpr 75.00, tnr 96.02991886, total pos 4, total neg 389186, time 1.24
+loss 0.7212, classify loss 0.6499, regress loss 0.0108, 0.0086, 0.0080, 0.0439
+
+
+Epoch 031 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 10.26
+loss 2.1279, classify loss 0.9708, regress loss 0.4661, 0.0455, 0.1543, 0.4912
+
+Validation: tpr 0.00, tnr 98.92577548, total pos 4, total neg 389211, time 1.26
+loss 27.8125, classify loss 7.4035, regress loss 7.9834, 1.6752, 2.8878, 7.8627
+
+
+Epoch 032 (lr 0.01000)
+Train:      tpr 0.00, tnr 0.00, total pos 4, total neg 10, time 10.68
+loss 0.9089, classify loss 0.7939, regress loss 0.0302, 0.0092, 0.0373, 0.0383
+
+Validation: tpr 75.00, tnr 75.90279757, total pos 4, total neg 389373, time 1.27
+loss 2099.1003, classify loss 2.3148, regress loss 581.8348, 90.5484, 712.3066, 712.0957
+
+
+Epoch 033 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.0using gpu 0,1,2,3
+0, total pos 4, total neg 10, time 10.69
+loss 0.7699, classify loss 0.7151, regress loss 0.0018, 0.0076, 0.0180, 0.0276
+
+Validation: tpr 0.00, tnr 99.87127342, total pos 4, total neg 389197, time 1.26
+loss 3786.4771, classify loss 13.8219, regress loss 1177.2524, 3.6077, 1268.1969, 1323.5977
+
+
+Epoch 034 (lr 0.01000)
+Train:      tpr 100.00, tnr 0.00, total pos 4, total neg 10, time 10.75
+loss 0.7628, classify loss 0.7019, regress loss 0.0175, 0.0112, 0.0014, 0.0308
+
+Validation: tpr 0.00, tnr 95.92679122, total pos 4, total neg 389079, time 1.26
+loss 2098.6252, classify loss 13.8718, regress loss 651.6068, 43.7321, 672.2657, 717.1487
+
+
+Epoch 035 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 10.77
+loss 0.9081, classify loss 0.7168, regress loss 0.0421, 0.0219, 0.0627, 0.0645
+
+Validation: tpr 0.00, tnr 98.12691073, total pos 4, total neg 389250, time 1.24
+loss 2440.2178, classify loss 13.8496, regress loss 758.6313, 85.8708, 764.9987, 816.8673
+
+
+Epoch 036 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 10.65
+loss 0.6572, classify loss 0.5954, regress loss 0.0135, 0.0029, 0.0227, 0.0227
+
+Validation: tpr 0.00, tnr 96.68701788, total pos 4, total neg 389166, time 1.27
+loss 225.4223, classify loss 9.5561, regress loss 68.3751, 7.9216, 66.9397, 72.6298
+
+
+Epoch 037 (lr 0.01000)
+Train:      tpr 100.00, tnr 0.00, total pos 4, total neg 10, time 10.32
+loss 0.7734, classify loss 0.6996, regress loss 0.0182, 0.0144, 0.0034, 0.0378
+
+Validation: tpr 0.00, tnr 95.98801364, total pos 4, total neg 389109, time 1.26
+loss 74.9269, classify loss 3.9297, regress loss 22.9083, 2.4138, 21.7299, 23.9452
+
+
+Epoch 038 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 10.73
+loss 0.7646, classify loss 0.7044, regress loss 0.0171, 0.0103, 0.0016, 0.0312
+
+Validation: tpr 0.00, tnr 87.42052049, total pos 4, total neg 389094, time 1.31
+loss 9.0919, classify loss 0.9374, regress loss 2.7642, 0.0242, 2.4263, 2.9399
+
+
+Epoch 039 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 11.12
+loss 0.6305, classify loss 0.5914, regress loss 0.0057, 0.0157, 0.0028, 0.0148
+
+Validation: tpr 0.00, tnr 84.01721922, total pos 4, total neg 389100, time 1.97
+loss 1.6475, classify loss 0.6210, regress loss 0.3124, 0.0124, 0.2747, 0.4270
+
+
+Epoch 040 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 13.49
+loss 0.7561, classify loss 0.7021, regress loss 0.0056, 0.0042, 0.0121, 0.0320
+
+Validation: tpr 100.00, tnr 74.87952132, total pos 4, total neg 389073, time 1.80
+loss 0.7041, classify loss 0.6256, regress loss 0.0160, 0.0025, 0.0088, 0.0513
+
+
+Epoch 041 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 13.26
+loss 0.7423, classify loss 0.7008, regress loss 0.0042, 0.0036, 0.0028, 0.0310
+
+Validation: tpr 100.00, tnr 73.25471201, total pos 4, total neg 389377, time 1.93
+loss 0.6979, classify loss 0.6341, regress loss 0.0061, 0.0023, 0.0031, 0.0522
+
+
+using gpu 0,1,2,3
+Epoch 001 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 34.09
+loss 1.2042, classify loss 1.0180, regress loss 0.0321, 0.0217, 0.0568, 0.0757
+
+Validation: tpr 100.00, tnr 33.26585348, total pos 4, total neg 389252, time 2.91
+loss 0.7776, classify loss 0.6874, regress loss 0.0017, 0.0115, 0.0021, 0.0749
+
+
+Epoch 002 (lr 0.01000)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 5.65
+loss 1.1000, classify loss 0.9731, regress loss 0.0270, 0.0069, 0.0080, 0.0849
+
+Validation: tpr 100.00, tnr 33.27115818, total pos 4, total neg 389223, time 1.01
+loss 0.7782, classify loss 0.6857, regress loss 0.0066, 0.0043, 0.0067, 0.0749
+
+
+Epoch 003 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 7.42
+loss 1.1488, classify loss 0.9722, regress loss 0.0383, 0.0818, 0.0455, 0.0111
+
+Validation: tpr 100.00, tnr 33.24989463, total pos 4, total neg 389108, time 1.04
+loss 0.7785, classify loss 0.6836, regress loss 0.0065, 0.0089, 0.0056, 0.0739
+
+
+Epoch 004 (lr 0.01000)
+Train:      tpr 100.00, tnr 0.00, total pos 4, total neg 10, time 6.94
+loss 1.0982, classify loss 0.8428, regress loss 0.0715, 0.0459, 0.0829, 0.0552
+
+Validation: tpr 0.00, tnr 43.31043381, total pos 4, total neg 389091, time 1.06
+loss 0.7883, classify loss 0.6957, regress loss 0.0062, 0.0051, 0.0139, 0.0674
+
+
+Epoch 005 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 8.00
+loss 1.1366, classify loss 0.9445, regress loss 0.1426, 0.0010, 0.0218, 0.0267
+
+Validation: tpr 0.00, tnr 53.66654421, total pos 4, total neg 389263, time 1.01
+loss 0.8228, classify loss 0.7419, regress loss 0.0031, 0.0133, 0.0186, 0.0459
+
+
+Epoch 006 (lr 0.00100)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 6.59
+loss 0.9962, classify loss 0.8514, regress loss 0.0737, 0.0194, 0.0277, 0.0240
+
+Validation: tpr 0.00, tnr 58.29600099, total pos 4, total neg 389296, time 1.05
+loss 0.7966, classify loss 0.7215, regress loss 0.0034, 0.0179, 0.0072, 0.0466
+
+
+Epoch 007 (lr 0.00100)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 6.54
+loss 1.1517, classify loss 0.9232, regress loss 0.0138, 0.0289, 0.0106, 0.1752
+
+Validation: tpr 0.00, tnr 48.82827250, total pos 4, total neg 389297, time 1.06
+loss 0.7843, classify loss 0.7036, regress loss 0.0012, 0.0095, 0.0115, 0.0586
+
+
+Epoch 008 (lr 0.00100)
+Train:      tpr 100.00, tnr 0.00, total pos 4, total neg 10, time 6.57
+loss 0.8993, classify loss 0.7901, regress loss 0.0336, 0.0077, 0.0281, 0.0398
+
+Validation: tpr 75.00, tnr 36.40229395, total pos 4, total neg 389198, time 1.03
+loss 0.7867, classify loss 0.6881, regress loss 0.0072, 0.0092, 0.0144, 0.0677
+
+
+Epoch 009 (lr 0.00010)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 6.90
+loss 0.9473, classify loss 0.8256, regress loss 0.0158, 0.0205, 0.0195, 0.0659
+
+Validation: tpr 100.00, tnr 33.24852746, total pos 4, total neg 389124, time 1.01
+loss 0.7716, classify loss 0.6734, regress loss 0.0059, 0.0136, 0.0056, 0.0731
+
+
+Epoch 010 (lr 0.00010)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 36.87
+loss 0.8748, classify loss 0.7739, regress loss 0.0258, 0.0169, 0.0169, 0.0413
+
+Validation: tpr 100.00, tnr 33.27483427, total pos 4, total neg 389180, time 1.04
+loss 0.7544, classify loss 0.6681, regress loss 0.0083, 0.0018, 0.0034, 0.0728
+
+
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+using gpu 0,1,2,3
+Epoch 001 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 33.06
+loss 1.5778, classify loss 1.0664, regress loss 0.1953, 0.1714, 0.1073, 0.0375
+
+Validation: tpr 100.00, tnr 33.27269691, total pos 4, total neg 389205, time 2.87
+loss 0.7843, classify loss 0.6876, regress loss 0.0050, 0.0059, 0.0108, 0.0751
+
+
+Epoch 002 (lr 0.01000)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 5.97
+loss 1.1987, classify loss 0.9793, regress loss 0.0532, 0.0232, 0.0508, 0.0922
+
+Validation: tpr 100.00, tnr 33.26935775, total pos 4, total neg 389211, time 1.00
+loss 0.7838, classify loss 0.6851, regress loss 0.0097, 0.0046, 0.0082, 0.0762
+
+
+Epoch 003 (lr 0.01000)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 6.03
+loss 1.4456, classify loss 1.0151, regress loss 0.1631, 0.0871, 0.0730, 0.1074
+
+Validation: tpr 0.00, tnr 64.36879681, total pos 4, total neg 389114, time 0.95
+loss 0.8080, classify loss 0.6988, regress loss 0.0094, 0.0255, 0.0228, 0.0516
+
+
+Epoch 004 (lr 0.01000)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 5.63
+loss 1.0908, classify loss 0.8635, regress loss 0.1169, 0.0563, 0.0217, 0.0323
+
+Validation: tpr 0.00, tnr 64.21908966, total pos 4, total neg 389174, time 0.96
+loss 2.7181, classify loss 0.9723, regress loss 0.4647, 0.6005, 0.2593, 0.4214
+
+
+Epoch 005 (lr 0.01000)
+Train:      tpr 75.00, tnr 0.00, total pos 4, total neg 10, time 6.03
+loss 0.8576, classify loss 0.7766, regress loss 0.0076, 0.0197, 0.0065, 0.0472
+
+Validation: tpr 0.00, tnr 64.15225749, total pos 4, total neg 389104, time 0.95
+loss 30.2121, classify loss 5.1072, regress loss 6.0900, 7.3397, 3.5674, 8.1078
+
+
+Epoch 006 (lr 0.00100)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 6.75
+loss 1.8559, classify loss 0.8818, regress loss 0.3962, 0.3269, 0.0115, 0.2394
+
+Validation: tpr 0.00, tnr 70.92848774, total pos 4, total neg 389192, time 1.05
+loss 19.6612, classify loss 3.4989, regress loss 3.8530, 4.9591, 2.0889, 5.2611
+
+
+Epoch 007 (lr 0.00100)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 6.63
+loss 0.8293, classify loss 0.7533, regress loss 0.0105, 0.0083, 0.0165, 0.0407
+
+Validation: tpr 0.00, tnr 83.82977740, total pos 4, total neg 389302, time 1.03
+loss 9.7783, classify loss 2.0130, regress loss 1.7022, 2.4361, 0.9824, 2.6446
+
+
+Epoch 008 (lr 0.00100)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 6.62
+loss 1.0597, classify loss 0.8218, regress loss 0.0126, 0.0742, 0.0355, 0.1156
+
+Validation: tpr 0.00, tnr 75.77004902, total pos 4, total neg 389196, time 1.06
+loss 5.0296, classify loss 1.3859, regress loss 0.8070, 1.1921, 0.4010, 1.2436
+
+
+Epoch 009 (lr 0.00010)
+Train:      tpr 25.00, tnr 0.00, total pos 4, total neg 10, time 6.59
+loss 2.3614, classify loss 1.1376, regress loss 0.1019, 0.4193, 0.1798, 0.5228
+
+Validation: tpr 0.00, tnr 76.42908712, total pos 4, total neg 389217, time 1.06
+loss 2.3173, classify loss 0.9655, regress loss 0.3395, 0.4067, 0.1773, 0.4283
+
+
+Epoch 010 (lr 0.00010)
+Train:      tpr 50.00, tnr 0.00, total pos 4, total neg 10, time 6.67
+loss 0.9257, classify loss 0.8129, regress loss 0.0143, 0.0263, 0.0105, 0.0616
+
+Validation: tpr 0.00, tnr 77.18636354, total pos 4, total neg 389368, time 1.02
+loss 1.2322, classify loss 0.7906, regress loss 0.1023, 0.1520, 0.0471, 0.1403
+
+

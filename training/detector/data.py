@@ -11,7 +11,7 @@ import warnings
 from scipy.ndimage.interpolation import rotate
 
 class DataBowl3Detector(Dataset):
-    def __init__(self, data_dir, split_path, config, phase = 'train',split_comber=None):
+    def __init__(self, data_dir, split_path, config, phase='train', split_comber=None):
         assert(phase == 'train' or phase == 'val' or phase == 'test')
         self.phase = phase
         self.max_stride = config['max_stride']       
@@ -25,18 +25,20 @@ class DataBowl3Detector(Dataset):
         self.augtype = config['augtype']
         self.pad_value = config['pad_value']
         self.split_comber = split_comber
-        idcs = np.load(split_path)
+        idcs = split_path # np.load(split_path)
         if phase!='test':
             idcs = [f for f in idcs if (f not in self.blacklist)]
 
         self.filenames = [os.path.join(data_dir, '%s_clean.npy' % idx) for idx in idcs]
-        self.kagglenames = [f for f in self.filenames if len(f.split('/')[-1].split('_')[0])>20]
-        self.lunanames = [f for f in self.filenames if len(f.split('/')[-1].split('_')[0])<20]
+        # print self.filenames
+        self.kagglenames = [f for f in self.filenames]# if len(f.split('/')[-1].split('_')[0])>20]
+        # self.lunanames = [f for f in self.filenames if len(f.split('/')[-1].split('_')[0])<20]
         
         labels = []
         
         for idx in idcs:
             l = np.load(os.path.join(data_dir, '%s_label.npy' %idx))
+            # print l, os.path.join(data_dir, '%s_label.npy' %idx)
             if np.all(l==0):
                 l=np.array([])
             labels.append(l)
@@ -45,6 +47,7 @@ class DataBowl3Detector(Dataset):
         if self.phase != 'test':
             self.bboxes = []
             for i, l in enumerate(labels):
+                # print l
                 if len(l) > 0 :
                     for t in l:
                         if t[3]>sizelim:
@@ -91,7 +94,8 @@ class DataBowl3Detector(Dataset):
                 bboxes = self.sample_bboxes[randimid]
                 isScale = self.augtype['scale'] and (self.phase=='train')
                 sample, target, bboxes, coord = self.crop(imgs, [], bboxes,isScale=False,isRand=True)
-            label = self.label_mapping(sample.shape[1:], target, bboxes)
+            # print sample.shape, target.shape, bboxes.shape
+            label = self.label_mapping(sample.shape[1:], target, bboxes, filename)
             sample = (sample.astype(np.float32)-128)/128
             #if filename in self.kagglenames and self.phase=='train':
             #    label[label==-1]=0
@@ -237,7 +241,7 @@ class Crop(object):
                 crop = crop[:,:-newpad,:-newpad,:-newpad]
             elif newpad>0:
                 pad2 = [[0,0],[0,newpad],[0,newpad],[0,newpad]]
-                crop = np.pad(crop,pad2,'constant',constant_values =self.pad_value)
+                crop = np.pad(crop, pad2, 'constant', constant_values=self.pad_value)
             for i in range(4):
                 target[i] = target[i]*scale
             for i in range(len(bboxes)):
@@ -258,7 +262,7 @@ class LabelMapping(object):
             self.th_pos = config['th_pos_val']
 
             
-    def __call__(self, input_size, target, bboxes):
+    def __call__(self, input_size, target, bboxes, filename):
         stride = self.stride
         num_neg = self.num_neg
         th_neg = self.th_neg
@@ -267,7 +271,9 @@ class LabelMapping(object):
         
         output_size = []
         for i in range(3):
-            assert(input_size[i] % stride == 0)
+            if input_size[i] % stride != 0:
+                print filename
+            # assert(input_size[i] % stride == 0) 
             output_size.append(input_size[i] / stride)
         
         label = -1 * np.ones(output_size + [len(anchors), 5], np.float32)

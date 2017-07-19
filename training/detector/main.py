@@ -23,7 +23,7 @@ from layers import acc
 parser = argparse.ArgumentParser(description='PyTorch DataBowl3 Detector')
 parser.add_argument('--model', '-m', metavar='MODEL', default='base',
                     help='model')
-parser.add_argument('-j', '--workers', default=10, type=int, metavar='N',
+parser.add_argument('-j', '--workers', default=15, type=int, metavar='N',
                     help='number of data loading workers (default: 32)')
 parser.add_argument('--epochs', default=100, type=int, metavar='N',
                     help='number of total epochs to run')
@@ -37,7 +37,7 @@ parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum')
 parser.add_argument('--weight-decay', '--wd', default=1e-4, type=float,
                     metavar='W', help='weight decay (default: 1e-4)')
-parser.add_argument('--save-freq', default='10', type=int, metavar='S',
+parser.add_argument('--save-freq', default='5', type=int, metavar='S',
                     help='save frequency')
 parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
@@ -47,7 +47,7 @@ parser.add_argument('--test', default=0, type=int, metavar='TEST',
                     help='1 do test evaluation, 0 not')
 parser.add_argument('--split', default=8, type=int, metavar='SPLIT',
                     help='In the test phase, split the image to 8 parts')
-parser.add_argument('--gpu', default=4, type=str, metavar='N',
+parser.add_argument('--gpu', default='all', type=str, metavar='N',
                     help='use gpu')
 parser.add_argument('--n_test', default=4, type=int, metavar='N',
                     help='number of gpu for test')
@@ -55,7 +55,6 @@ parser.add_argument('--n_test', default=4, type=int, metavar='N',
 def main():
     global args
     args = parser.parse_args()
-    
     
     torch.manual_seed(0)
     torch.cuda.set_device(0)
@@ -95,18 +94,32 @@ def main():
     args.n_gpu = n_gpu
     net = net.cuda()
     loss = loss.cuda()
-    cudnn.benchmark = True
+    cudnn.benchmark = False #True
     net = DataParallel(net)
-    datadir = config_training['preprocess_result_path']
+    traindatadir = config_training['train_preprocess_result_path']
+    valdatadir = config_training['val_preprocess_result_path']
+    testdatadir = config_training['test_preprocess_result_path']
+    trainfilelist = []
+    for f in os.listdir(config_training['train_data_path']):
+        if f.endswith('.mhd') and f[:-4] not in config_training['black_list']:
+            trainfilelist.append(f[:-4])
+    valfilelist = []
+    for f in os.listdir(config_training['val_data_path']):
+        if f.endswith('.mhd') and f[:-4] not in config_training['black_list']:
+            valfilelist.append(f[:-4])
+    testfilelist = []
+    for f in os.listdir(config_training['test_data_path']):
+        if f.endswith('.mhd') and f[:-4] not in config_training['black_list']:
+            testfilelist.append(f[:-4])
     
     if args.test == 1:
         margin = 32
         sidelen = 144
-
+        import data
         split_comber = SplitComb(sidelen,config['max_stride'],config['stride'],margin,config['pad_value'])
         dataset = data.DataBowl3Detector(
-            datadir,
-            'full.npy',
+            testdatadir,
+            testfilelist,
             config,
             phase='test',
             split_comber=split_comber)
@@ -117,15 +130,18 @@ def main():
             num_workers = args.workers,
             collate_fn = data.collate,
             pin_memory=False)
+
+        for i, (data, target, coord, nzhw) in enumerate(test_loader): # check data consistency
+            if i >= len(testfilelist)/args.batch_size:
+                break
         
         test(test_loader, net, get_pbb, save_dir,config)
         return
-
     #net = DataParallel(net)
-    
+    import data
     dataset = data.DataBowl3Detector(
-        datadir,
-        'kaggleluna_full.npy',
+        traindatadir,
+        trainfilelist,
         config,
         phase = 'train')
     train_loader = DataLoader(
@@ -136,8 +152,8 @@ def main():
         pin_memory=True)
 
     dataset = data.DataBowl3Detector(
-        datadir,
-        'valsplit.npy',
+        valdatadir,
+        valfilelist,
         config,
         phase = 'val')
     val_loader = DataLoader(
@@ -147,6 +163,14 @@ def main():
         num_workers = args.workers,
         pin_memory=True)
 
+    for i, (data, target, coord) in enumerate(train_loader): # check data consistency
+        if i >= len(trainfilelist)/args.batch_size:
+            break
+
+    for i, (data, target, coord) in enumerate(val_loader): # check data consistency
+        if i >= len(valfilelist)/args.batch_size:
+            break
+
     optimizer = torch.optim.SGD(
         net.parameters(),
         args.lr,
@@ -154,10 +178,12 @@ def main():
         weight_decay = args.weight_decay)
     
     def get_lr(epoch):
-        if epoch <= args.epochs * 0.5:
+        if epoch <= args.epochs * 1/3: #0.5:
             lr = args.lr
-        elif epoch <= args.epochs * 0.8:
+        elif epoch <= args.epochs * 2/3: #0.8:
             lr = 0.1 * args.lr
+        elif epoch <= args.epochs * 0.8:
+            lr = 0.05 * args.lr
         else:
             lr = 0.01 * args.lr
         return lr
@@ -176,6 +202,7 @@ def train(data_loader, net, loss, epoch, optimizer, get_lr, save_freq, save_dir)
         param_group['lr'] = lr
 
     metrics = []
+
     for i, (data, target, coord) in enumerate(data_loader):
         data = Variable(data.cuda(async = True))
         target = Variable(target.cuda(async = True))
@@ -270,7 +297,7 @@ def test(data_loader, net, get_pbb, save_dir, config):
         target = [np.asarray(t, np.float32) for t in target]
         lbb = target[0]
         nzhw = nzhw[0]
-        name = data_loader.dataset.filenames[i_name].split('-')[0].split('/')[-1].split('_clean')[0]
+        name = data_loader.dataset.filenames[i_name].split('/')[-1].split('_clean')[0] #.split('-')[0]  wentao change
         data = data[0][0]
         coord = coord[0][0]
         isfeat = False
@@ -346,4 +373,3 @@ def singletest(data,net,config,splitfun,combinefun,n_per_run,margin = 64,isfeat=
         return output
 if __name__ == '__main__':
     main()
-
