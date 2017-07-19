@@ -1,16 +1,28 @@
 #!/bin/bash
 set -e
 
-python prepare.py
+#python prepare.py
 cd detector
-eps=100
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model res18 -b 16 --epochs $eps --save-dir res18 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model res18 -b 16 --resume results/res18/$eps.ckpt --test 1
-cp results/res18/$eps.ckpt ../../model/detector.ckpt
+eps=150
+# CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model res18 -b 12 --epochs $eps --save-dir res18 
+maxeps=150
+for (( i=25; i <= $maxeps; i+=5 ))
+do
+    echo "process $i epoch"
+	
+	if [ $i -lt 10 ]; then
+	    CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model res18 -b 16 --resume results/res18/00$i.ckpt --test 1
+	elif [ $i -lt 100 ]; then 
+	    CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model res18 -b 16 --resume results/res18/0$i.ckpt --test 1
+	elif [ $i -lt 1000 ]; then
+	    CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model res18 -b 16 --resume results/res18/$i.ckpt --test 1
+	else
+	    echo "Unhandled case"
+    fi
 
-
-cd ../classifier
-python adapt_ckpt.py --model1  net_detector_3 --model2  net_classifier_3  --resume ../detector/results/res18/$eps.ckpt 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model1  net_detector_3 --model2  net_classifier_3 -b 16 -b2 10 --save-dir net3 --resume ./results/start.ckpt --start-epoch 30 --epochs 130
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --model1  net_detector_3 --model2  net_classifier_4 -b 16 -b2 10 --save-dir net4 --resume ./results/net3/130.ckpt --freeze_batchnorm 1 --start-epoch 121
-cp results/net4/160.ckpt ../../model/classifier.ckpt
+    if [ ! -d "results/res18/baselinebboxlranchor/val$i/" ]; then
+        mkdir results/res18/baselinebboxlranchor/val$i/
+    fi
+    mv results/res18/bbox/*.npy results/res18/baselinebboxlranchor/val$i/
+done 
+# cp results/res18/$eps.ckpt results/res18/baselinebbox/detector.ckpt

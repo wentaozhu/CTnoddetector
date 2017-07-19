@@ -62,6 +62,7 @@ def resample(imgs, spacing, new_spacing,order = 2):
 def savenpy_tianchi(id,filelist,prep_folder,data_path,use_existing=True):      
     resolution = np.array([1,1,1])
     name = filelist[id]
+    # print 'processing', name
     if use_existing:
         if os.path.exists(os.path.join(prep_folder,name+'_label.npy')) and os.path.exists(os.path.join(prep_folder,name+'_clean.npy')):
             print(name+' had been done')
@@ -103,7 +104,7 @@ def savenpy_tianchi(id,filelist,prep_folder,data_path,use_existing=True):
         np.save(os.path.join(prep_folder,name+'_clean'),sliceim)
         np.save(os.path.join(prep_folder,name+'_originbox'),extendbox)
         np.save(os.path.join(prep_folder,name+'_spacing'),spacing)
-        np.save(os.path.join(prep_folder,name+'_origin'), origine)
+        np.save(os.path.join(prep_folder,name+'_origin'), origin)
         print '_im', im.shape, '_clean', sliceim.shape, '_originbox', extendbox.shape, extendbox[0,0], \
                extendbox[0,1], extendbox[1,0], extendbox[1,1], extendbox[2,0], extendbox[2,1], \
                '_spacing', spacing, '_origin', origin
@@ -126,11 +127,12 @@ def full_prep_tianchitest(data_path, prep_folder, n_worker=None, use_existing=Tr
     print('starting preprocessing')
     pool = Pool(n_worker)
     filelist = []
-    subfolders = ['val_subset02', 'val_subset03', 'val_subset04']
-    for sf in subfolders:
-        for f in os.listdir(data_path+sf+'/'):
-            if f.endwith('*.mhd'):
-                filelist.append(data_path+sf+'/'+f)
+    subfolders = ['']
+    for f in os.listdir(data_path):
+        if f.endswith('.mhd'):
+            filelist.append(f[:-4])
+    # for i in xrange(len(filelist)):
+        # savenpy_tianchi(id,filelist,prep_folder,data_path,use_existing=True)
     partial_savenpy = partial(savenpy_tianchi,filelist=filelist,prep_folder=prep_folder,
                               data_path=data_path,use_existing=use_existing)
 

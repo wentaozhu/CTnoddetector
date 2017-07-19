@@ -1,11 +1,11 @@
-config = {'datapath':'/mnt/media/wentao/tianchi/', # use val_subset02, val_subset03, val_subset04
-          'preprocess_result_path':'./prep_result_tianchi/',
-          'bbox_result_path':'./bbox_result_tianchi',
+config = {'datapath':'/mnt/media/wentao/tianchi/test/', 
+          'preprocess_result_path':'/mnt/media/wentao/tianchi/preprocess_test/',
+          'bbox_result_path':'/mnt/media/wentao/tianchi/bbox_test/',
           
           'detector_model':'net_detector',
          'detector_param':'./model/detector.ckpt',
          'n_gpu':4,
-         'n_worker_preprocessing':15,
+         'n_worker_preprocessing':10,
          'use_exsiting_preprocessing':False,
          'skip_preprocessing':False,
          'skip_detect':False}

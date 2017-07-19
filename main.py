@@ -1,4 +1,5 @@
-from preprocessing import full_prep_tianchitest
+from preprocessing import full_prep
+from full_prep import fullprep_tianchitest
 from config_tianchi import config as config_submit
 
 import torch

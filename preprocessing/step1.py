@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 from skimage import measure, morphology
 import sys 
 sys.path.append('../training/')
-from prepare import load_itk_image,lumTrans
+# import prepare
+from prepare import load_itk_image, lumTrans, resample
 
 
 def load_scan(path):
@@ -231,11 +232,14 @@ def step1_python_tianchi(case_path):
     # case = load_scan(case_path)
     # case_pixels, spacing = get_pixels_hu(case)
     ''' For the mhd file reader '''
-    sliceim,origin,spacing,isflip = load_itk_image(os.path.join(luna_data,name+'.mhd'))
+    resolution = np.array([1,1,1])
+    sliceim,origin,spacing,isflip = load_itk_image(case_path+'.mhd')
     if isflip:
         sliceim = sliceim[:,::-1,::-1]
         print('flip!')
-    case_pixels = lumTrans(sliceim)
+    # sliceim = lumTrans(sliceim)
+    # sliceim1,_ = resample(sliceim,spacing,resolution,order=1)
+    case_pixels = np.array(sliceim)
 
     bw = binarize_per_slice(case_pixels, spacing)
     flag = 0

@@ -1,17 +1,24 @@
-config = {'stage1_data_path':'/mnt/media/wentao/tianchi/databowl/stage1/',
-          'luna_raw':'/mnt/media/wentao/tianchi/luna16/',
-          'luna_segment':'/mnt/media/wentao/tianchi/luna16/seg-lungs-LUNA16/',
+config = {'train_data_path':'/mnt/media/wentao/tianchi/train/',
+          'val_data_path':'/mnt/media/wentao/tianchi/val/', 
+          'test_data_path':'/mnt/media/wentao/tianchi/val/', 
           
-          'luna_data':'/mnt/media/wentao/tianchi/luna16/allset/',
-          'preprocess_result_path':'/mnt/media/wentao/tianchi/databowl/preprocess/',       
+          'train_preprocess_result_path':'/mnt/media/wentao/tianchi/preprocessing/train/',  
+          'val_preprocess_result_path':'/mnt/media/wentao/tianchi/preprocessing/val/',  
+          'test_preprocess_result_path':'/mnt/media/wentao/tianchi/preprocessing/val/',
           
-          'luna_abbr':'./detector/labels/shorter.csv',
-          'luna_label':'./detector/labels/lunaqualified.csv',
-          'stage1_annos_path':['./detector/labels/label_job5.csv',
-                './detector/labels/label_job4_2.csv',
-                './detector/labels/label_job4_1.csv',
-                './detector/labels/label_job0.csv',
-                './detector/labels/label_qualified.csv'],
-          'bbox_path':'../detector/results/res18/bbox/',
+          'train_bbox_path':'/mnt/media/wentao/tianchi/bbox/train/',  
+          'val_bbox_path':'/mnt/media/wentao/tianchi/bbox/val/',  
+          'test_bbox_path':'/mnt/media/wentao/tianchi/bbox/val/',  
+          
+          'train_annos_path':'/mnt/media/wentao/tianchi/csv/train/annotations.csv',
+          'val_annos_path':'/mnt/media/wentao/tianchi/csv/val/annotations.csv',
+          'test_annos_path':'/mnt/media/wentao/tianchi/csv/val/annotations.csv',
+
+          'black_list':['LKDS-00192', 'LKDS-00319', 'LKDS-00238', 'LKDS-00926', 'LKDS-00504',
+                        'LKDS-00648', 'LKDS-00829', 'LKDS-00931', 'LKDS-00359', 'LKDS-00379', 
+                        'LKDS-00541', 'LKDS-00353', 'LKDS-00598', 'LKDS-00684', 'LKDS-00065'],
+          
           'preprocessing_backend':'python'
-         }
+         } # LKDS-00648 - end is found by the labelmapping function
+# 'LKDS-00192','LKDS-00319','LKDS-00238','LKDS-00926', 'LKDS-00504' is found from preprocessing
+# 'LKDS-00504',
